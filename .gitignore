@@ -1,0 +1,17 @@
+# --- B&R Automation Studio 6.7 ---
+# Do Gitu ide iba: Logical/, Physical/ a *.apj projektový súbor.
+# Všetko ostatné (generované/dočasné/lokálne) je ignorované.
+
+# Generované binárky a diagnostické dáta (regenerujú sa pri builde)
+**/Binaries/
+**/Diagnosis/
+**/Temp/
+
+# Lokálne používateľské nastavenia (viažu sa na konkrétny PC/používateľa)
+*.set
+*.isopen
+
+# --- Bežné OS/editor smeti (voliteľné, ale užitočné) ---
+Thumbs.db
+desktop.ini
+.vscode/

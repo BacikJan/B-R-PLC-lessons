@@ -2,8 +2,20 @@
 <?AutomationStudio WorkingVersion="6.7" FileVersion="4.9"?>
 <Hardware xmlns="http://br-automation.co.at/AS/Hardware">
   <Module Name="X20BB52" Type="X20BB52" Version="1.2.0.0" />
+  <Module Name="X20BM11" Type="X20BM11" Version="1.1.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BB52" TargetConnector="IF6" />
+  </Module>
+  <Module Name="X20BM11_a" Type="X20BM11" Version="1.1.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11" TargetConnector="X2X2" />
+  </Module>
   <Module Name="X20CP0483" Type="X20CP0483" Version="1.8.1.0">
     <Connection Connector="SL" TargetModule="X20BB52" TargetConnector="SL1" />
+    <Connector Name="IF2">
+      <Parameter ID="ActivateDevice" Value="1" />
+      <Parameter ID="Mode" Value="Manual" />
+      <Parameter ID="InternetAddress" Value="10.10.10.11" />
+      <Parameter ID="SubnetMask" Value="255.255.255.0" />
+    </Connector>
     <Parameter ID="TimerDeviceType" Value="SWIOTIMER" />
     <Parameter ID="Cyclic1Duration" Value="10000" />
     <Parameter ID="Cyclic1Tolerance" Value="10000" />
@@ -25,9 +37,19 @@
     <Parameter ID="FileDeviceName1" Value="USER" />
     <Parameter ID="FileDevicePath1" Value="USER_PATH" />
   </Module>
+  <Module Name="X20DI8371" Type="X20DI8371" Version="1.6.1.0">
+    <Connection Connector="SS1" TargetModule="X20TB12_a" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11" TargetConnector="SL1" />
+  </Module>
+  <Module Name="X20DO8322" Type="X20DO8322" Version="1.9.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12_b" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11_a" TargetConnector="SL1" />
+  </Module>
   <Module Name="X20PS9600" Type="X20PS9600" Version="1.6.2.0">
     <Connection Connector="PS" TargetModule="X20BB52" TargetConnector="PS1" />
     <Connection Connector="SS1" TargetModule="X20TB12" TargetConnector="SS" />
   </Module>
   <Module Name="X20TB12" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12_a" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12_b" Type="X20TB12" Version="1.0.0.0" />
 </Hardware>

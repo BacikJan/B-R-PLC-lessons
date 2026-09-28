@@ -16,13 +16,17 @@
       <Parameter ID="InternetAddress" Value="10.10.10.11" />
       <Parameter ID="SubnetMask" Value="255.255.255.0" />
     </Connector>
+    <Parameter ID="ConfigurationID" Value="zakladny_kurz_PLCv1" />
+    <Parameter ID="ActivateEncryption" Value="0" />
     <Parameter ID="TimerDeviceType" Value="SWIOTIMER" />
-    <Parameter ID="Cyclic1Duration" Value="10000" />
-    <Parameter ID="Cyclic1Tolerance" Value="10000" />
+    <Parameter ID="SystemTick" Value="800" />
+    <Parameter ID="TaskClassIdleTime" Value="800" />
+    <Parameter ID="Cyclic1Duration" Value="8000" />
+    <Parameter ID="Cyclic1Tolerance" Value="0" />
     <Parameter ID="Cyclic2Duration" Value="20000" />
     <Parameter ID="Cyclic2Tolerance" Value="20000" />
-    <Parameter ID="Cyclic3Duration" Value="50000" />
-    <Parameter ID="Cyclic3Tolerance" Value="50000" />
+    <Parameter ID="Cyclic3Duration" Value="49600" />
+    <Parameter ID="Cyclic3Tolerance" Value="49600" />
     <Parameter ID="Cyclic4Duration" Value="100000" />
     <Parameter ID="Cyclic4Tolerance" Value="100000" />
     <Parameter ID="Cyclic5Duration" Value="200000" />
@@ -31,7 +35,7 @@
     <Parameter ID="Cyclic6Tolerance" Value="500000" />
     <Parameter ID="Cyclic7Duration" Value="1000000" />
     <Parameter ID="Cyclic7Tolerance" Value="1000000" />
-    <Parameter ID="Cyclic8Duration" Value="10000" />
+    <Parameter ID="Cyclic8Duration" Value="9600" />
     <Parameter ID="Cyclic8Tolerance" Value="30000000" />
     <Group ID="FileDevice1" />
     <Parameter ID="FileDeviceName1" Value="USER" />

@@ -1,0 +1,12 @@
+
+PROGRAM _CYCLIC
+	
+	// LED := TLACIDLO; zakomentovaný kód
+	
+	IF TLACIDLO = TRUE THEN
+		LED := TRUE;
+	ELSE
+		LED := FALSE;
+	END_IF;
+	 
+END_PROGRAM

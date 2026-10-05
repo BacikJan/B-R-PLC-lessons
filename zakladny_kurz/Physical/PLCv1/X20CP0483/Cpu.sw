@@ -2,8 +2,8 @@
 <?AutomationStudio FileVersion="4.9"?>
 <SwConfiguration CpuAddress="" xmlns="http://br-automation.co.at/AS/SwConfiguration">
   <TaskClass Name="Cyclic#1">
-    <Task Name="PROGRAM_1_" Source="Programs.PROGRAM_1_ST.prg" Memory="UserROM" Language="IEC" Debugging="true" />
-    <Task Name="PROGRAM__S" Source="Programs.PROGRAM__ST.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="PROGRAM_ST" Source="Programs.PROGRAM_ST_1.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="PROGRAM_LD" Source="Programs.PROGRAM_LD_1.prg" Memory="UserROM" Language="IEC" Debugging="true" />
   </TaskClass>
   <TaskClass Name="Cyclic#2" />
   <TaskClass Name="Cyclic#3" />

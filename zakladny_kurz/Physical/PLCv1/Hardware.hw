@@ -17,6 +17,7 @@
       <Parameter ID="SubnetMask" Value="255.255.255.0" />
     </Connector>
     <Parameter ID="ConfigurationID" Value="zakladny_kurz_PLCv1" />
+    <Parameter ID="EnableDebugger" Value="1" />
     <Parameter ID="ActivateEncryption" Value="0" />
     <Parameter ID="TimerDeviceType" Value="SWIOTIMER" />
     <Parameter ID="SystemTick" Value="800" />

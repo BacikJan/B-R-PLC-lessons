@@ -2,7 +2,7 @@
 <?AutomationStudio FileVersion="4.9"?>
 <Package xmlns="http://br-automation.co.at/AS/Package">
   <Objects>
-    <Object Type="Program" Language="IEC">PROGRAM_1_ST</Object>
-    <Object Type="Program" Language="IEC">PROGRAM__ST</Object>
+    <Object Type="Program" Language="IEC">PROGRAM_LD_1</Object>
+    <Object Type="Program" Language="IEC">PROGRAM_ST_1</Object>
   </Objects>
 </Package>

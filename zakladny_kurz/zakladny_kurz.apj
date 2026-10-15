@@ -6,4 +6,7 @@
   <IEC ExtendedConstants="true" IecExtendedComments="true" KeywordsAsStructureMembers="false" NamingConventions="true" Pointers="true" Preprocessor="false" />
   <Motion RestartAcoposParameter="true" RestartInitParameter="true" />
   <Variables DefaultInitValue="0" DefaultRetain="false" DefaultVolatile="true" />
+  <TechnologyPackages>
+    <OpcUaCs Version="6.8.0" />
+  </TechnologyPackages>
 </Project>

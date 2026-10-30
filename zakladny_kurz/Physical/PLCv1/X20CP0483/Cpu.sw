@@ -27,5 +27,6 @@
   <Libraries>
     <LibraryObject Name="runtime" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="AsIecCon" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="standard" Source="Libraries.standard.lby" Memory="UserROM" Language="Binary" Debugging="true" />
   </Libraries>
 </SwConfiguration>

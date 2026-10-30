@@ -1,12 +1,15 @@
 
 PROGRAM _CYCLIC
 	
-	// LED := TLACIDLO; zakomentovaný kód
+//	LED := TLACIDLO; zakomentovaný kód
 	
-	IF TLACIDLO = TRUE THEN
-		LED := TRUE;
-	ELSE
-		LED := FALSE;
-	END_IF;
+//	IF TLACIDLO = TRUE THEN
+//		LED := TRUE;
+//	ELSE
+//		LED := FALSE;
+//	END_IF;
+	
+	CASOVAC(IN := TLACIDLO, PT := T#3s);
+	LED := CASOVAC.Q;
 	 
 END_PROGRAM

@@ -1,4 +1,5 @@
 VAR
 	LED : BOOL; (*LED ziarovka*)
 	TLACIDLO : BOOL; (*Ovladacie tlacidlo*)
+	CASOVAC : TON;
 END_VAR

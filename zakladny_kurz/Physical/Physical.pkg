@@ -4,5 +4,6 @@
   <Objects>
     <Object Type="Configuration">PLCv1</Object>
     <Object Type="Configuration">PLCv2</Object>
+    <Object Type="Configuration">SIMULATOR</Object>
   </Objects>
 </Physical>

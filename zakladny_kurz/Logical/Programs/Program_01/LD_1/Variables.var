@@ -1,4 +1,0 @@
-VAR
-	LED : BOOL; (*LED ziarovka*)
-	TLACIDLO : BOOL; (*Ovladacie tlacidlo*)
-END_VAR

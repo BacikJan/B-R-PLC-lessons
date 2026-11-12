@@ -1,4 +1,0 @@
-VAR
-	CASOVAC : TON;
-	LED : BOOL;
-END_VAR

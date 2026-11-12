@@ -4,5 +4,6 @@
   <Objects>
     <Object Type="File">UaCsConfig.uacfg</Object>
     <Object Type="File">UaDvConfig.uadcfg</Object>
+    <Object Type="File">OpcUaCsMap.uad</Object>
   </Objects>
 </Package>

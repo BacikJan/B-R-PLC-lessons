@@ -6,7 +6,10 @@
   </Pages>
   <Navigations />
   <BindingsSets />
-  <EventBindingsSets />
+  <EventBindingsSets>
+    <EventBindingsSet refId="content_0" />
+  </EventBindingsSets>
+  <EventScriptsSets />
   <Dialogs />
   <Contents>
     <Content refId="content_0" />

@@ -3,6 +3,6 @@
   <Widgets>
     <Widget xsi:type="widgets.brease.Label" id="Label1" top="40" left="40" width="210" zIndex="0" text="mapp View content" />
     <Widget xsi:type="widgets.brease.Button" id="Button1" top="100" left="60" zIndex="1" text="TLACIDLO" />
-    <Widget xsi:type="widgets.brease.ImageList" id="ImageList1" top="100" left="180" zIndex="2" imageList="['']" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList1" top="100" left="180" zIndex="2" imageList="['Media/LED-OFF.png', 'Media/LED-BLUE.png']" />
   </Widgets>
 </Content>

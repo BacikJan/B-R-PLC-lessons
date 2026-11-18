@@ -5,7 +5,9 @@
     <Page refId="page_0" />
   </Pages>
   <Navigations />
-  <BindingsSets />
+  <BindingsSets>
+    <BindingsSet refId="content_0" />
+  </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="content_0" />
   </EventBindingsSets>

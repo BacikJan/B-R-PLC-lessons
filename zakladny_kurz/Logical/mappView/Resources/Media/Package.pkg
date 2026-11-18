@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio FileVersion="4.9"?>
 <Package SubType="MediaPackage" PackageType="MediaPackage" xmlns="http://br-automation.co.at/AS/Package">
-  <Objects />
+  <Objects>
+    <Object Type="File">LED-BLUE.png</Object>
+    <Object Type="File">LED-GREEN.png</Object>
+    <Object Type="File">LED-OFF.png</Object>
+    <Object Type="File">LED-ORANGE.png</Object>
+    <Object Type="File">LED-RED.png</Object>
+  </Objects>
 </Package>
